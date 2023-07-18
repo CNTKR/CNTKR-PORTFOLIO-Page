@@ -140,70 +140,43 @@ body {
   
 
   
-  .center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 5vh;
-  }
-  
-  .cont {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 800px; /* Adjust as needed */
-  }
-  
-  .button {
-    background-color: #E6F5FF;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 10px;
-    text-align: center;
-    width: calc(33.33% - 10px);
-    margin-bottom: 10px;
-    cursor: pointer;
-  }
+  /* Add your existing CSS code here */
 
-  @media only screen and (max-width: 768px) {
-    .button {
-      width: calc(50% - 10px); /* Display two buttons in a row on smaller screens */
-    }
-  }
+/* Add your existing CSS code here */
 
-  /*css for the soft skills*/
-  
+/* Add your existing CSS code here */
 
-.ce {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 5vh;
-}
-
-.co {
+/* Styles for larger screens */
+.button-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 600px; /* Adjust the maximum width of the container */
+  max-width: 800px;
+  margin: 0 auto; /* Center the button container */
 }
 
-.bo {
+.button {
   background-color: #E6F5FF;
   border: 1px solid #ddd;
   border-radius: 5px;
-  padding: 5px 25px; /* Adjust padding as needed */
-  height: 40px;
+  padding: 5px 10px;
+  text-align: center;
+  width: calc(25% - 10px);
   margin: 5px;
   cursor: pointer;
 }
 
-/* Additional CSS for responsiveness */
+/* Media queries for responsiveness */
 @media only screen and (max-width: 768px) {
-  .co {
-    max-width: 400px; /* Adjust the maximum width on smaller screens */
+  .button {
+      width: calc(50% - 10px);
   }
 }
+
+
+
+/* Additional CSS for responsiveness if needed */
+/* Add more media queries as needed */
 
 /* Gmail code */
 bo {
